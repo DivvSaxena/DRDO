@@ -1,0 +1,104 @@
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+  body{
+    margin: 0;
+  }
+  .header{
+    display: flex;
+    background-color: rgb(164, 121, 208);
+    border-radius: 5px;
+    height:140px;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .sub-header{
+    margin-right: 19em;
+    margin-bottom: 51em;
+  }
+  h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem;
+    width:500px;
+    border-bottom: 10px solid rgb(3, 5, 55);
+    margin: 0.2em 19em 0 0;
+  }
+
+  .lion{
+    margin-right: 5em;
+  }
+
+  .first-input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-one{
+    font-family: 'Urbanist', sans-serif;
+    padding: 0.6em;
+    width: 350px;
+    font-size: 1.5rem;
+    margin: 1em;
+  }
+
+  .button-one{
+    background: none;
+    border: none;
+  }
+
+  .button-one:hover{
+    cursor: pointer;
+  }
+
+  .container{
+    height: 700px;
+    width:1500px;
+    margin: 0 auto;
+    background-color: rgb(33, 73, 99);
+    opacity: 0.8;
+  }
+
+  section{
+    background-color: bisque;
+    background: url('./assets/lion.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    border-radius: 15px;
+  }
+
+.sub-container{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.input-two{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.25rem;
+  padding: 0.5em;
+  margin: 2em 1em 2em 2em;
+  width: 400px;
+}
+
+.button-two{
+  background: none;
+  border: none;
+}
+
+.button-two:hover{
+  cursor: pointer;
+}
+
+h2{
+  border: 2px solid wheat;
+  border-radius: 25px;
+  background: url("https://media.giphy.com/media/JXHhI4o9NCf8k/giphy.gif");
+  padding: 1em;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 3.25rem;
+  margin: 1em;
+  width: 400px;
+  text-align: start;
+}
